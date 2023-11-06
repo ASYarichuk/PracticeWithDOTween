@@ -1391,9 +1391,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08d7862adfdc2f4187705cef9aba6d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _text1: {fileID: 1529673090}
-  _text2: {fileID: 1474828950}
-  _text3: {fileID: 1343814551}
+  _textToBeReplaced: {fileID: 1529673090}
+  _textToAddTextTo: {fileID: 1474828950}
+  _textToBulkhead: {fileID: 1343814551}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
