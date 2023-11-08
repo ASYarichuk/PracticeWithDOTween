@@ -1,9 +1,10 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class ChangerColor : MonoBehaviour
+[RequireComponent(typeof(Renderer))]
+public class ColorChanger : MonoBehaviour
 {
-    [SerializeField] private float _duration = 3f;
+    [SerializeField] private float _duration = 2f;
 
     private Color _color = Color.red;
 
